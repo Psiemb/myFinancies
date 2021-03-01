@@ -5,6 +5,7 @@ import myApplications.myFinancies.response.QuantityOfExensesGroupingByMonthRespo
 import java.util.List;
 
 public class QuantityOfExensesGroupingByMonthWrapperResponse {
+
     private List<QuantityOfExensesGroupingByMonthResponse> quantityOfExensesGroupingByMonthResponse;
     private String name = "Piotr";
 
