@@ -32,6 +32,7 @@ public class MaxAndMinValueByMonthsResponseMapper {
                 .map(Expense::getValue)
                 .min(Double::compareTo)
                 .orElse(0.0);
+
         return new MaxAndMinValueByMonthsResponse(Month.JAN, maxValue, minValue);
     }
 
